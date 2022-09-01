@@ -17,3 +17,10 @@ lanczos_cpu:&emsp; Lanczos algorithm for gauge-covariant lattice Laplace operato
 lanczos_gpu:&emsp; OpenACC accelerated Lanczos algorithm for gauge-covariant lattice Laplace operator in three dimensions (operator only).<br />
 <br />
 lanczos_acc:&emsp;&ensp;OpenACC accelerated Lanczos algorithm for gauge-covariant lattice Laplace operator in three dimensions (operator and gram-schmidt orthogonalization).<br />
+
+---
+Benchmarking results for SU3 input data for 3D grid sizes: 10<sup>3</sup>, 20<sup>3</sup>, 30<sup>3</sup>, 40<sup>3</sup> and 50<sup>3</sup>
+
+![Time taken by serial, partial-parallelized and fullly parallel versions](https://github.com/Beck-919/acc-lanczos/blob/master/stats/line_time.png?raw=true)
+
+![Speedup of partial-parallelized and fullly parallel versions with serial baseline](https://github.com/Beck-919/acc-lanczos/blob/master/stats/bar_speedup.png?raw=true)
