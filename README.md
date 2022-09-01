@@ -16,5 +16,4 @@ lanczos_cpu:&emsp; Lanczos algorithm for gauge-covariant lattice Laplace operato
 <br />
 lanczos_gpu:&emsp; OpenACC accelerated Lanczos algorithm for gauge-covariant lattice Laplace operator in three dimensions (operator only).<br />
 <br />
-lanczos_acc:&emsp;&ensp;OpenACC accelerated Lanczos algorithm for gauge-covariant lattice Laplace operator in three dimensions (operator and<br />
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; gram-schmidt orthogonalization).<br />
+lanczos_acc:&emsp;&ensp;OpenACC accelerated Lanczos algorithm for gauge-covariant lattice Laplace operator in three dimensions (operator and gram-schmidt orthogonalization).<br />
