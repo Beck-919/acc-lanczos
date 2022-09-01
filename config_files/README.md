@@ -1,6 +1,6 @@
 Data Format:
 
---------------------------------------------------
+```
 
 vlen
 
@@ -17,13 +17,13 @@ x7 x8 x9
 
 <vlen * 3 times>
 
---------------------------------------------------
+```
 
-Where,	vlen		- 3D grid dimension times 3
-	direction	- 0/1/2 for right/bottom/hind
-	x1 x2 x3	--¬
-	x4 x5 x6	  |-- 3 x 3 complex numbers
-	x7 x8 x9	__|
+Where,	vlen		- 3D grid dimension times 3 <br />
+	direction	- 0/1/2 for right/bottom/hind <br />
+	x1 x2 x3	--¬ <br />
+	x4 x5 x6	  |-- 3 x 3 complex numbers <br />
+	x7 x8 x9	__|<br />
 
 
 Sample files filenames:
