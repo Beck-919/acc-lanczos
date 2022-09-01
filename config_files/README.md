@@ -30,5 +30,5 @@ Sample files' naming conventions: <br />
 sample_edgedata_\<vlen\>_\<l\>_\<u\>txt	- gluon matrices are complex numbers distributed in U(l,u).<br />
 sample_su3_\<vlen\>.txt			- gluon matrices are SU3 simulated data.<br />
 
-NOTE: 
+NOTE: <br />
 Find the larger files at: https://drive.google.com/drive/folders/1wI8U1A1Rwb2TMxi2UUTEJMoe6G2iubAY?usp=sharing
