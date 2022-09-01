@@ -1,0 +1,6 @@
+obj/*.o
+obj/*.d
+lanczos_std
+lanczos_cpu
+lanczos_gpu
+lanczos_acc
