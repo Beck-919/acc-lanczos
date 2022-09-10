@@ -1,1 +1,1 @@
-Directory contains the speedup statistics of the input data.
+Directory contains the graphs showing speedup statistics.
