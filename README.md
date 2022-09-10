@@ -28,7 +28,15 @@ Prerequisites:<br />
 Requires syetem with Nvidia CUDA-enabled GPU. If multiple GPUs are available, set ```CUDA_VISIBLE_DEVICES``` to one of them.
 
 ---
-Benchmarking results for SU3 input data for 3D grid sizes: 10<sup>3</sup>, 20<sup>3</sup>, 30<sup>3</sup>, 40<sup>3</sup> and 50<sup>3</sup>
+Benchmarking results for SU3 input data for 3D grid sizes: 10<sup>3</sup>, 20<sup>3</sup>, 30<sup>3</sup>, 40<sup>3</sup> and 50<sup>3</sup><br />
+
+System specification of the benchmarking system:<br />
+<br />
+CPU:&emsp;&ensp;&ensp; Intel(R) Core(TM) i7-6700HQ<br />
+RAM:&emsp;&ensp; 16G 2133 MT/s DDR4<br />
+GPU:&emsp;&ensp;&ensp; NVIDIA GeForce GTX 960M<br />
+VRAM:&emsp; 4G<br />
+<br />
 
 ![Time taken by serial, partial-parallelized and fullly parallel versions](https://github.com/Beck-919/acc-lanczos/blob/master/stats/line_time.png?raw=true)
 
