@@ -52,7 +52,7 @@ int main() {
 
 //START: TESTING OPERATOR [TEST]
 //Don't use in PARALLEL_2, will throw error as mv_mul expects data in GPU
-
+/*
 	std::random_device rnd_device;
 	std::mt19937 mersenne_engine {rnd_device()};
 
@@ -102,7 +102,7 @@ int main() {
 
 	if(std::abs(diff.real()) < 1e-9 && std::abs(diff.imag()) < 1e-9)
 		std::cout<<"Operator verified!\n";
-
+*/
 //END: TESTING OPERATOR [TEST]
 
 	LambdaLanczos<Complex3D<double>> engine(std::ref(mv_mul), vlen, vlen*3, false);
