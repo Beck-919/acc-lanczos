@@ -33,22 +33,23 @@ int main() {
 //	const int vlen = 27;
 //	const int num = 27*3;
 //SMALL_INPUT_SAMPLE
-	const int vlen = 343;
-	const int num = 10;
+//	const int vlen = 343;
+//	const int num = 10;
 //LARGE_INPUT_SAMPLE
-//	const int vlen = 125000;
-//	const int num = 25;	//Uses around 10G RAM for ACC version, specifically for U(-100,100) data
-//	const int num = 10;	//Uses around 16G RAM (for 10) with eigenvectors for
+	const int vlen = 1000;
+	const int num = 10;	//Uses around 16G RAM (for 10) with eigenvectors for
 				//ACC version, specifically for su3 data
+
+//	const int num = 25;	//Uses around 10G RAM for ACC version, specifically for U(-100,100) data
 
 	Grid3D<Complex3D<double>> mv_mul(vlen);
 
 //TEST
 //	mv_mul.read_input(std::string("config_files/sample_su3_27.txt"));
 //SMALL_INPUT_SAMPLE
-	mv_mul.read_input(std::string("config_files/sample_su3_343.txt"));
+//	mv_mul.read_input(std::string("config_files/sample_su3_343.txt"));
 //LARGE_INPUT_SAMPLE
-//	mv_mul.read_input(std::string("config_files/sample_su3_125000.txt"));
+	mv_mul.read_input(std::string("config_files/sample_su3_1000.txt"));
 
 //START: TESTING OPERATOR [TEST]
 //Don't use in PARALLEL_2, will throw error as mv_mul expects data in GPU
@@ -137,5 +138,6 @@ int main() {
 		cout << endl;
 	}
 */
+
 	return EXIT_SUCCESS;
 }
